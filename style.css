@@ -1,0 +1,63 @@
+
+*{
+    background-color: rgb(127, 255, 244);
+}
+
+
+h3{
+    color:black;
+    font-size:35px;
+    
+}
+span{
+    color:brown;
+}
+ul{
+    background-color: blueviolet;
+}
+li{
+    background-color: blueviolet;
+}
+
+
+nav ul li a:hover{
+    color:brown;
+}
+
+
+/* about section*/
+.about  {
+    margin-top: 50px;
+    flex-direction: column-reverse;
+
+    max-width: 1200px;
+    
+
+    
+}
+.about .section-tittle{
+    font-weight: 100;
+    color: black;
+
+
+}
+.about .img-about::after{
+    position:relative;
+    border:10px solid snow;
+    height: 100%;
+    width: 50%;
+}
+.about .img-about::after{
+    content:'';
+    position:absolute;
+    left: 629px;
+    height: 300px;
+    width: 150px;
+    border: 5px solid crimson;
+    z-index: -1;
+/* end of about section*/    
+
+}
+
+
+
